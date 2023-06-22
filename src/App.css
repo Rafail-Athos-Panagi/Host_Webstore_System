@@ -1,0 +1,29 @@
+.navbar .login {
+    color: white;
+    border-radius: 5px;
+    margin: 0 5px 0 5px;
+    display: flex;
+    align-items: center;
+}
+
+
+html, body, #app, #app>div{
+    height: 100%;
+    background-color: white;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    background-color: white;
+}
+
+.content{
+    flex: 1 0 auto;
+}
+
+.homefooter{
+    flex-shrink: 0;
+}
+

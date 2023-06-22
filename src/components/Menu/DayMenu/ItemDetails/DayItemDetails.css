@@ -1,0 +1,65 @@
+.day-modal-box {
+  border-radius: 0;
+}
+
+.day-upper-row {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #0C777F;
+  -webkit-text-stroke: 0.3px #1d1d1d;
+}
+
+
+
+.day-ingredients-text {
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.day-product-name {
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #0C777F;
+  -webkit-text-stroke: 0.5px #1d1d1d;
+}
+
+.day-quantity-label {
+  font-size: x-large;
+  margin-right: 5px;
+  color: #0C777F;
+  -webkit-text-stroke: 0.3px #1d1d1d;
+}
+
+.day-btn-add-to-cart-modal {
+  display: block;
+  height: 45px;
+  width: 100%;
+  text-align: center;
+  border: 0;
+  font-size: large;
+  background-color: #0C777F;
+  color: white;
+  -webkit-text-stroke: 0.3px #1d1d1d;
+}
+
+.day-btn-add-to-cart-modal:hover{
+  background-color: #084e53;
+}
+.day-minus-plus-btn{
+  height: 35px;
+  width: 35px;
+  background-color: #0C777F;
+  color: white;
+  border-style: none;
+  -webkit-text-stroke: 0.3px #fff;
+}
+.day-minus-plus-btn:hover{
+  background-color: #084e53
+  ;
+}
+.day-extra-ingredients-title{
+  font-size: x-large;
+  color: #0C777F;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  -webkit-text-stroke: 0.3px #fff;
+}
+

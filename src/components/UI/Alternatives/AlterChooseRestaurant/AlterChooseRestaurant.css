@@ -1,0 +1,22 @@
+.main_box {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.p-4 {
+  -webkit-text-stroke: 0.5px #1d1d1d;
+  color: #0C777F;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.restaurants {
+  background-color: #ffffff;
+}
+
+.choose-restaurant-btn {
+  width: 25%;
+}
+
+/*.Row_box {
+  padding: 0 3rem 3rem 3rem;
+}*/

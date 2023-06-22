@@ -1,0 +1,90 @@
+{
+  "name": "restaurant",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": ".",
+  "options": {
+    "allowedHosts": [
+      "localhost",
+      ".localhost"
+    ]
+  },
+  "proxy": "http://localhost:8080",
+  "dependencies": {
+    "@coreui/icons": "^3.0.1",
+    "@coreui/icons-react": "^2.1.0",
+    "@coreui/react": "^4.7.0",
+    "@coreui/react-chartjs": "^2.1.2",
+    "@coreui/utils": "^2.0.1",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@fortawesome/fontawesome-free": "^6.3.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@hookform/resolvers": "^2.9.10",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.11.4",
+    "@mui/styled-engine-sc": "^5.11.11",
+    "@reduxjs/toolkit": "^1.9.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.2.3",
+    "concurrently": "^7.6.0",
+    "framer-motion": "^10.8.5",
+    "js-cookie": "^3.0.1",
+    "mdb-react-ui-kit": "^6.0.0",
+    "mui-datatables": "^4.3.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.0",
+    "react-dom": "^18.2.0",
+    "react-google-recaptcha": "^2.1.0",
+    "react-hook-form": "^7.42.1",
+    "react-redux": "^8.0.5",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router": "^6.6.2",
+    "react-router-dom": "^6.6.2",
+    "react-scripts": "^5.0.1",
+    "react-step-progress-bar": "^1.0.3",
+    "react-to-print": "^2.14.12",
+    "reactjs-popup": "^2.0.5",
+    "simplebar": "^6.2.2",
+    "simplebar-react": "^3.2.2",
+    "styled-components": "^5.3.9",
+    "sweetalert2": "^11.7.3",
+    "web-vitals": "^2.1.4"
+  },
+  "overrides": {
+    "react-scripts": {
+      "@svgr/webpack": "6.5.1"
+    }
+  },
+  "scripts": {
+    "nodeserver": "cd ./host_server && node index.js",
+    "reactserver": "react-scripts start",
+    "start": "concurrently \"npm run nodeserver\" \"npm run reactserver\" ",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

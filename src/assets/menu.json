@@ -1,0 +1,47 @@
+{
+  "item1": {
+    "image": "images/burger.webp",
+    "type": "Starter",
+    "name": "Breadsticks",
+    "price": "€3"
+  },
+  "item2": {
+    "image": "images/burger.webp",
+    "type": "Main",
+    "name": "Burger",
+    "price": "€9"
+  },
+  "item3": {
+    "image": "images/burger.webp",
+    "type": "Main",
+    "name": "Steak",
+    "price": "€13"
+  },
+  "item4": {
+    "image": "images/burger.webp",
+    "type": "Salad",
+    "name": "Steak",
+    "price": "€13"
+  },
+
+  "item5": {
+    "image": "images/burger.webp",
+    "type": "Salad",
+    "name": "Steak",
+    "price": "€13"
+  },
+
+  "item6": {
+    "image": "images/burger.webp",
+    "type": "Salad",
+    "name": "Steak",
+    "price": "€13"
+  },
+
+  "item7": {
+    "image": "images/burger.webp",
+    "type": "Salad",
+    "name": "Steak",
+    "price": "€13"
+  }
+}

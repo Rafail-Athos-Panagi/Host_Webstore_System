@@ -1,0 +1,21 @@
+video {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #e5e5e0;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  video::-webkit-media-controls-enclosure {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 5px;
+  }
+  
+  video::-webkit-media-controls-play-button {
+  background: #0C777F;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 10px;
+}

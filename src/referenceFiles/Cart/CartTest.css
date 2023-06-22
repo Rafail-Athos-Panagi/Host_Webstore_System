@@ -1,0 +1,78 @@
+.head {
+  border-radius: 25px;
+  background-color: #222121c8;
+  height: 15rem;
+  width: 18rem;
+}
+
+.button {
+  cursor: pointer;
+  font: inherit;
+  border: none;
+  background-color: #141415;
+  color: white;
+  padding: 1rem 4rem;
+  display: flex;
+  border-radius: 25px;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+  border-style: solid;
+  border-color: black;
+}
+
+.button:hover,
+.button:active {
+  background-color: #ffffff;
+}
+
+.icon {
+  width: 2rem;
+  height: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.badge {
+  background-color: #02832f;
+  padding: 0.25rem 1rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+.button:hover .badge,
+.button:active .badge {
+  background-color: #014919;
+}
+
+.bump {
+  animation: bump 300ms ease-out;
+}
+
+.content {
+  margin-top: 0.5rem;
+}
+
+.category span{
+  padding: 2rem 2.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

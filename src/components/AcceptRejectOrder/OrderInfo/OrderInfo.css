@@ -1,0 +1,104 @@
+.main_wrap {
+    padding: 1rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.order_info {   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+    color: rgb(53, 51, 51);
+}
+
+.order_user_info {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.order_user_info p:not(:first-child){
+    display: inline;
+    margin-left: 0.5rem;
+}
+
+.inf {
+    margin-top: 1rem;
+}
+
+.order_user_info .username{
+    font-size: 2rem;
+}
+
+.order_menu_info {
+    margin-top: 3rem;
+}
+
+.order {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-weight: bold;
+}
+
+.menu {
+    display: inline;
+    margin-left: 1rem;
+}
+.price {
+    margin-left: 2rem;
+}
+
+.order_info , .order_user_info , .order_menu_info , .orderTotalPrice , .orderMenuitemComment{
+    padding: 1.5rem;
+    border-radius: 25px;
+    background-color:rgba(176, 196, 222, 0.361);
+}
+
+.orderTotalPrice {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.order_extra {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order_extra p:nth-child(1) {
+    margin-left: 3.5rem;
+}
+
+.modalWhite {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 65%;
+    height: 80%;
+    max-height: 90%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 14px;
+    display: flex;
+    justify-content: safe center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 99;
+    animation: slide-down 300ms ease-out forwards;
+    overflow-y: auto;
+  }

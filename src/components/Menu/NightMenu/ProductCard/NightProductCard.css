@@ -1,0 +1,112 @@
+.night-card-item {
+    height: fit-content;
+    background-color: white;
+    border-radius: 5;
+}
+
+.night-card-image {
+    border-radius: 5;
+}
+
+.night-card-title {
+    color: #0a6066;
+    -webkit-text-stroke: 0.3px #fffbfb;
+
+}
+
+.night-card-price {
+    font-size: larger;
+    font-weight: 700;
+}
+
+.night-btn-add-to-cart {
+    display: block;
+    width: 100%;
+    text-align: center;
+    border: 0;
+    font-size: large;
+    background-color: #0C777F;
+    color: white;
+    -webkit-text-stroke: 0.3px #1d1d1d;
+}
+
+.night-btn-add-to-cart-disabled {
+    display: block;
+    width: 100%;
+    text-align: center;
+    border: 0;
+    font-size: large;
+        background-color: #77c6cb;
+    color: white;
+    -webkit-text-stroke: 0.3px #1d1d1d;
+}
+
+.night-btn-add-to-cart:hover{
+    background-color: #084e53;
+}
+
+.night-label-learn-more {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 75px;
+    font-size: larger;
+    color: #0a6066;
+    cursor:pointer;
+    -webkit-text-stroke: 0.3px #1d1d1d;
+
+}
+/*.dark-mode-card {
+    background-color: rgb(24, 24, 24) !important;
+}
+
+.dark-mode-card .span {
+    color: white;
+}
+
+.dark-mode-card .btn {
+    color: black;
+    background-color: white;
+}
+
+.dark-mode-card .btn:hover {
+    background-color: rgba(255, 255, 255, 0.548);
+    ;
+}
+
+.dark-mode-card .text {
+    color: white;
+}
+
+.resize-card-item-width {
+    width: 305px;
+}
+
+.resize-card-item-height {
+    height: 205px;
+}
+
+
+@media only screen and (max-width: 570px) {
+
+    .resize-card-item-width {
+        width: 255px;
+    }
+
+    .resize-card-item-height {
+        height: 155px;
+    }
+}
+
+
+
+@media only screen and (max-width: 420px) {
+
+    .resize-card-item-width {
+        width: 153px;
+    }
+
+    .resize-card-item-height {
+        height: 103px;
+    }
+
+}
+*/

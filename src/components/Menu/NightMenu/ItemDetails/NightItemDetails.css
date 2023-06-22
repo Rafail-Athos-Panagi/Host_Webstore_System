@@ -1,0 +1,224 @@
+.night-modal-box {
+  border-radius: 0;
+}
+
+.night-upper-row {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #0C777F;
+  -webkit-text-stroke: 0.3px #fff;
+}
+
+
+.night-ingredients-text {
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.night-product-name {
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #0C777F;
+  -webkit-text-stroke: 0.5px #1d1d1d;
+}
+
+.night-quantity-label {
+  font-size: x-large;
+  margin-right: 5px;
+  color: #0C777F;
+  -webkit-text-stroke: 0.3px #1d1d1d;
+
+}
+
+.night-btn-add-to-cart-modal {
+  display: block;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  border: 0;
+  font-size: large;
+  background-color: #0C777F;
+  color: white;
+  -webkit-text-stroke: 0.3px #1d1d1d;
+}
+
+.night-btn-add-to-cart-modal:hover{
+  background-color: #084e53;
+}
+.night-minus-plus-btn{
+  height: 35px;
+  width: 35px;
+  background-color: #0C777F;
+  color: white;
+  border-style: none;
+  -webkit-text-stroke: 0.3px #fff;
+}
+.night-minus-plus-btn:hover{
+  background-color: #084e53;
+}
+.night-extra-ingredients-title{
+  font-size: x-large;
+  color: #0C777F;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  -webkit-text-stroke: 0.3px #fff;
+}
+
+
+
+.details-of-the-item .div-scroll-items {
+  overflow: auto;
+  width: 100%;
+  height: 150px;
+}
+
+
+.details-of-the-item .div-scroll-items::-webkit-scrollbar
+{
+  width: 0.5vh;
+}
+
+.details-of-the-item .div-scroll-items::-webkit-scrollbar-thumb
+{
+  background-color: #4b4f5c;
+}
+
+
+
+
+
+.details-of-the-item .paragraph-scroll {
+  overflow: auto;
+  width: 100%;
+  height: 100px;
+  word-wrap: break-word;
+}
+
+.details-of-the-item .paragraph-scroll::-webkit-scrollbar
+{
+  width: 0.5vh;
+}
+
+.details-of-the-item .paragraph-scroll::-webkit-scrollbar-thumb
+{
+  background-color: #4b4f5c;
+}
+
+
+
+
+
+
+.details-of-the-item .center-title {
+  display: flex;
+  justify-content: center;
+}
+
+.details-of-the-item .add-to-cart-btn {
+  max-width: 600px;
+  width: 600px;
+}
+
+
+.details-of-the-item .text-styling {
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+
+
+.details-of-the-item .title {
+  font-size: 25px;
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.details-of-the-item .span {
+  font-size: 25px;
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.details-of-the-item .span-no-font-style {
+  font-size: 25px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+}
+
+.details-of-the-item  .border-line-bottom
+{
+  border-bottom:solid 2px rgb(100, 100, 100);
+}
+
+
+.details-of-the-item  .border-line-top
+{
+  border-top:solid 2px rgb(100, 100, 100);
+}
+
+.details-of-the-item  #itemPrice
+{
+  font-size: 25px;
+}
+
+.details-of-the-item  .margin-top-row
+{
+  margin-top: 5px;
+}
+
+.details-of-the-item  .margin-top-col
+{
+  margin-top: 10px;
+}
+
+.details-of-the-item  .margin-top-button
+{
+  margin-top: 10px;
+}
+
+
+
+
+
+@media screen and (max-width: 990px) {
+
+  .details-of-the-item  #itemPrice
+{
+  font-size: 600;
+  margin: 10px;
+}
+
+}
+
+
+
+.details-of-the-item .center-items
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details-of-the-item .text-center1
+{
+  display: flex;
+  justify-content: center;
+}

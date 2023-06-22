@@ -1,0 +1,81 @@
+/* 
+  :root
+  {
+    /* --dark-color:#2b2b2b; 
+    --dark-color-catefories: #181313;
+  } */
+  .mapping-col
+  {
+    margin-top: 30px;
+  }
+
+  .emptyMenu{
+    margin: auto; 
+    margin-top: 2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    width:80%;
+};
+
+  .categories {
+  display: flex;
+  /* justify-content: center;
+  align-items: center;
+  text-align: center; */
+  /* background: var(--dark-color); */
+  margin-top: 10px;
+  padding: 20px 0px;
+  border-radius: 8px;
+  
+}
+
+.categories button {
+
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+  border: none;
+  outline: none;
+  /* padding: 17px 20px; */
+  background: transparent;
+  color: #fff;
+  width: 120px;
+  height: 60px;
+}
+
+.day-btnActive {
+  background: #8A8A8A !important;
+  color: #1d1d1d !important;
+}
+
+.day-categories .btn
+{
+  align-items: center;
+  gap: 10%;
+  color: #0C777F;
+}
+
+.day-categories .btn:hover
+{
+  color: #ffffff91;
+}
+
+
+.horizantaly
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.dark-mode
+{
+  background: #e5e5e0;
+}
+
+
+.center-div-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

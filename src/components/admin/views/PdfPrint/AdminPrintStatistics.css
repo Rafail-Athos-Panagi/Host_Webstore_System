@@ -1,0 +1,30 @@
+.table_title {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.push {
+    margin-top: 10rem;
+}
+
+.header_stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.emph{
+    font-weight: bold;
+}
+
+.header_stats p {
+    margin-right: 5rem;
+    font-size: 0.8rem;
+}
+
+.details {
+    margin-left: 2rem;
+    text-align: center;
+}

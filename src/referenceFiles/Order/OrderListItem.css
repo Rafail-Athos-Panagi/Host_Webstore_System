@@ -1,0 +1,17 @@
+.zoom {
+  transition: transform 0.2s; /* Animation */
+  padding-bottom: 30px;
+  margin: 0 auto;
+  display: Inline-Block;
+}
+
+.card {
+  width: "15rem";
+}
+
+.zoom:hover {
+  transform: scale(
+    1.05
+  );
+}
+

@@ -1,0 +1,7 @@
+.emptyCart{
+    margin: auto; 
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    width:60%;
+};

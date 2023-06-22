@@ -1,0 +1,261 @@
+.backdrop {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 20;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+@media screen and (min-width: 768px) {
+
+.modalLightMenu {
+  position: fixed;
+  top: 9vh;
+  width: 70%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem;
+  border-radius: 0px;
+  border-width: 1px;
+  border-color: black;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 30;
+  max-width: 80%;
+  max-height: 100%;
+  margin: auto;
+  background-color:#e5e5e0;
+  overflow-y: auto;
+}
+
+.modalLogin {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  height: fit-content;
+  max-height: 90%;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 14px;
+  display: flex;
+  justify-content: safe center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 99;
+  animation: slide-down 300ms ease-out forwards;
+  overflow-y: auto;
+}
+
+.modalDarkMenu {
+  position: fixed;
+  top: 9vh;
+  width: 70%;
+  left: 215px;
+  padding: 1rem;
+  border-radius: 0px;
+  border-width: 1px;
+  border-color: black;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 30;
+  max-width: 80%;
+  max-height: 100%;
+  background-color: #e5e5e0;
+  overflow-y: auto;
+}
+
+.modal-content {
+  overflow: scroll;
+}
+
+.modalWhite {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  height: fit-content;
+  max-height: 90%;
+  max-width: 90%;
+  width:80%;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 14px;
+  display: flex;
+  justify-content: safe center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 99;
+  animation: slide-down 300ms ease-out forwards;
+  overflow-y: auto;
+}
+
+.modalWhiteEditMenu
+{
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 70%;
+  width: fit-content;
+  height: fit-content;
+  max-height: 90%;
+  max-width: 90%;
+  background-color: #dfdfdf;
+  padding: 1rem;
+  border-radius: 14px;
+  display: flex;
+  justify-content: safe center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 99;
+  animation: slide-down 300ms ease-out forwards;
+  overflow-y: auto;
+}
+
+
+}
+
+.cart-modal {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 90%;
+  max-height: 90%;
+  overflow-x: hidden;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 99;
+  animation: slide-down 300ms ease-out forwards;
+  overflow-y: auto;
+}
+
+.cart-modal-content {
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+@media screen and (max-width: 767px) {
+
+  .cart-modal {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 767px;
+    height: 90%;
+    max-height: 90%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 99;
+    animation: slide-down 300ms ease-out forwards;
+    overflow-y: scroll;
+  }
+
+  .cart-modal-content {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .modalLightMenu {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    padding: 1rem;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 30;
+    max-width: 100%;
+    max-height: 95vh;
+    background-color: #e5e5e0;
+    overflow-y: auto;
+  }
+
+  .modalDarkMenu {
+    position: fixed;
+    left: 10%;
+    width: 85%;
+    padding: 1rem;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 30;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #6a898c;
+    overflow-y: auto;
+  }
+
+  .modalWhite {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90vw;
+    height: fit-content;
+    overflow: auto;
+    max-height: 90vh;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 14px;
+    display: flex;
+    justify-content: safe center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 99;
+    animation: slide-down 300ms ease-out forwards;
+    overflow-y: auto;
+  }
+
+  .modalWhiteEditMenu
+  {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90vw;
+    height: fit-content;
+    overflow: auto;
+    max-height: 90vh;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 14px;
+    display: flex;
+    justify-content: safe center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 99;
+    animation: slide-down 300ms ease-out forwards;
+    overflow-y: auto;
+  }
+
+
+  .modalLogin {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: fit-content;
+    max-height: 90%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 14px;
+    display: flex;
+    justify-content: safe center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 99;
+    animation: slide-down 300ms ease-out forwards;
+    overflow-y: auto;
+  }
+
+
+}

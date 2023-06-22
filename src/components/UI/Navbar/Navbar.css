@@ -1,0 +1,53 @@
+
+.navbar button {
+    color: #0C777F;
+    text-align: left;
+    padding: 0;
+    border: none;
+    background: none;
+    display: inline;
+    font-size: 10px;
+}
+
+.navbar .language-menu-container{
+
+    display: flex;
+    align-items: center;
+}
+
+.navbar #language-menu {
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    color: #0C777F;
+    list-style: none;
+    list-style-type: none;
+    list-style-image: none;
+    font-size: large;
+    font-weight: bold;
+    padding-left: 0px;
+    margin-right: 40px;
+
+}
+
+.navbar a {
+    color: #0C777F;
+    text-decoration: none;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar #order-now-btn {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #F58C23;
+}
+
+.navbar-toggler-icon{
+    width: 3.2rem !important;
+    height: 3.2rem !important;
+  }
+.slogan{
+    -webkit-text-stroke: 0.3px #e5e5e0;
+}

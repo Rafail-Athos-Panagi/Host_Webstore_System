@@ -1,0 +1,84 @@
+.title {
+  margin: 1rem;
+}
+
+.order_wrapper {
+  margin: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.5s ease;
+}
+
+.order_wrapper.active {
+  background-color: rgba(169, 170, 173, 0.378);
+}
+
+.inside {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.username {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.status {
+  color: rgb(173, 169, 169);
+}
+
+.invalid {
+  color: rgb(201, 44, 44);
+}
+
+.time {
+  color: black;
+}
+
+.accepted {
+  color: green;
+}
+
+.address {
+  font-weight: bold;
+  color: black;
+  font-size: 1.2rem;
+}
+
+/* .price {
+
+} */
+
+.waiting,
+.in_progress,
+.ready {
+  background-color: rgba(169, 170, 173, 0.378);
+  /*   background-color: rgba(0, 0, 0, 0.811); */
+}
+
+.waiting,
+.in_progress,
+.ready p {
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* .waiting {
+  color: orangered;
+}
+
+.in_progress {
+  color: orange;
+}
+
+.ready {
+  color: green;
+} */
+
+.price {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
